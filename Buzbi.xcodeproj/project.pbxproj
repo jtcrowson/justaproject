@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D95B4FD01CA05F1600CE1488 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B4FCF1CA05F1600CE1488 /* SearchViewController.swift */; };
+		D95B4FD21CA05F3800CE1488 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B4FD11CA05F3800CE1488 /* HomeViewController.swift */; };
+		D95B4FD41CA05F4800CE1488 /* MessengerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B4FD31CA05F4800CE1488 /* MessengerViewController.swift */; };
+		D95B4FD61CA05F5900CE1488 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B4FD51CA05F5900CE1488 /* CalendarViewController.swift */; };
+		D95B4FD81CA05F6600CE1488 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B4FD71CA05F6600CE1488 /* ProfileViewController.swift */; };
+		D95B4FDB1CA0EA6D00CE1488 /* ASHorizontalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B4FDA1CA0EA6D00CE1488 /* ASHorizontalScrollView.swift */; };
 		D9F067DA1C9F4A8900FBD831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F067D91C9F4A8900FBD831 /* AppDelegate.swift */; };
-		D9F067DC1C9F4A8900FBD831 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F067DB1C9F4A8900FBD831 /* FirstViewController.swift */; };
-		D9F067DE1C9F4A8900FBD831 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F067DD1C9F4A8900FBD831 /* SecondViewController.swift */; };
 		D9F067E11C9F4A8900FBD831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F067DF1C9F4A8900FBD831 /* Main.storyboard */; };
 		D9F067E31C9F4A8900FBD831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F067E21C9F4A8900FBD831 /* Assets.xcassets */; };
 		D9F067E61C9F4A8900FBD831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F067E41C9F4A8900FBD831 /* LaunchScreen.storyboard */; };
@@ -35,10 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D95B4FCF1CA05F1600CE1488 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchViewController.swift; path = ViewControllers/SearchViewController.swift; sourceTree = "<group>"; };
+		D95B4FD11CA05F3800CE1488 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ViewControllers/HomeViewController.swift; sourceTree = "<group>"; };
+		D95B4FD31CA05F4800CE1488 /* MessengerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessengerViewController.swift; path = ViewControllers/MessengerViewController.swift; sourceTree = "<group>"; };
+		D95B4FD51CA05F5900CE1488 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarViewController.swift; path = ViewControllers/CalendarViewController.swift; sourceTree = "<group>"; };
+		D95B4FD71CA05F6600CE1488 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = ViewControllers/ProfileViewController.swift; sourceTree = "<group>"; };
+		D95B4FDA1CA0EA6D00CE1488 /* ASHorizontalScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASHorizontalScrollView.swift; sourceTree = "<group>"; };
 		D9F067D61C9F4A8900FBD831 /* Buzbi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Buzbi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F067D91C9F4A8900FBD831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D9F067DB1C9F4A8900FBD831 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		D9F067DD1C9F4A8900FBD831 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		D9F067E01C9F4A8900FBD831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9F067E21C9F4A8900FBD831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9F067E51C9F4A8900FBD831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +84,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D95B4FD91CA05F7D00CE1488 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D95B4FD11CA05F3800CE1488 /* HomeViewController.swift */,
+				D95B4FD31CA05F4800CE1488 /* MessengerViewController.swift */,
+				D95B4FD51CA05F5900CE1488 /* CalendarViewController.swift */,
+				D95B4FD71CA05F6600CE1488 /* ProfileViewController.swift */,
+				D95B4FCF1CA05F1600CE1488 /* SearchViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		D9F067CD1C9F4A8900FBD831 = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +119,9 @@
 		D9F067D81C9F4A8900FBD831 /* Buzbi */ = {
 			isa = PBXGroup;
 			children = (
+				D95B4FD91CA05F7D00CE1488 /* ViewControllers */,
 				D9F067D91C9F4A8900FBD831 /* AppDelegate.swift */,
-				D9F067DB1C9F4A8900FBD831 /* FirstViewController.swift */,
-				D9F067DD1C9F4A8900FBD831 /* SecondViewController.swift */,
+				D95B4FDA1CA0EA6D00CE1488 /* ASHorizontalScrollView.swift */,
 				D9F067DF1C9F4A8900FBD831 /* Main.storyboard */,
 				D9F067E21C9F4A8900FBD831 /* Assets.xcassets */,
 				D9F067E41C9F4A8900FBD831 /* LaunchScreen.storyboard */,
@@ -259,9 +279,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9F067DE1C9F4A8900FBD831 /* SecondViewController.swift in Sources */,
+				D95B4FD81CA05F6600CE1488 /* ProfileViewController.swift in Sources */,
+				D95B4FD61CA05F5900CE1488 /* CalendarViewController.swift in Sources */,
+				D95B4FDB1CA0EA6D00CE1488 /* ASHorizontalScrollView.swift in Sources */,
+				D95B4FD41CA05F4800CE1488 /* MessengerViewController.swift in Sources */,
 				D9F067DA1C9F4A8900FBD831 /* AppDelegate.swift in Sources */,
-				D9F067DC1C9F4A8900FBD831 /* FirstViewController.swift in Sources */,
+				D95B4FD01CA05F1600CE1488 /* SearchViewController.swift in Sources */,
+				D95B4FD21CA05F3800CE1488 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +512,7 @@
 				D9F068021C9F4A8900FBD831 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9F068031C9F4A8900FBD831 /* Build configuration list for PBXNativeTarget "BuzbiTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +521,7 @@
 				D9F068051C9F4A8900FBD831 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9F068061C9F4A8900FBD831 /* Build configuration list for PBXNativeTarget "BuzbiUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +530,7 @@
 				D9F068081C9F4A8900FBD831 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
